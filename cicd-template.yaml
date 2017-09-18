@@ -527,7 +527,7 @@ objects:
       --form admin_confirm_passwd=${GOGS_PASSWORD} \
       --form admin_email=admin@gogs.com)
 
-      if [ $RETURN != "302" ]
+      if [ $RETURN != "200" ]
       then
         echo "ERROR: Failed to initialize Gogs"
         exit 255
