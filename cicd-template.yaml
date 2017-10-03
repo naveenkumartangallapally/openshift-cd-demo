@@ -173,9 +173,9 @@ objects:
             <args>${computer.jnlpmac} ${computer.name}</args>
             <ttyEnabled>false</ttyEnabled>
             <resourceRequestCpu></resourceRequestCpu>
-            <resourceRequestMemory>1228Mi</resourceRequestMemory>
+            <resourceRequestMemory>1430Mi</resourceRequestMemory>
             <resourceLimitCpu></resourceLimitCpu>
-            <resourceLimitMemory>1228Mi</resourceLimitMemory>
+            <resourceLimitMemory>1430Mi</resourceLimitMemory>
             <envVars/>
           </org.csanchez.jenkins.plugins.kubernetes.ContainerTemplate>
         </containers>
