@@ -558,7 +558,7 @@ objects:
       # import github repository
       cat <<EOF > /tmp/data.json
       {
-        "clone_addr": "https://github.com/OpenShiftDemos/openshift-tasks.git",
+        "clone_addr": "https://github.com/naveenkumartangallapally/openshift-cd-demo.git",
         "uid": 1,
         "repo_name": "openshift-tasks"
       }
